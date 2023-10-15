@@ -15,24 +15,11 @@ export const options: NextAuthOptions = {
       clientSecret: process.env.GOOGLE_SECRET as string
     })
   ],
-  pages: {
+/*   pages: {
     signIn: '/auth/signin',
     signOut: '/auth/signout',
     error: '/auth/error', // Error code passed in query string as ?error=
     verifyRequest: '/auth/verify-request', // (used for check email message)
     newUser: '/auth/new-user' // New users will be directed here on first sign in (leave the property out if not of interest)
-  }
-/*   session: {
-    jwt: true,
-    sessionCallback: async (session, user) => {
-      // Get the extra user data.
-      const extraData = await getExtraUserData(user);
-
-      // Add the extra user data to the session.
-      session.user.extraData = extraData;
-
-      // Return the session.
-      return session;
-    },
-  }, */
+  } */
 }
