@@ -6,6 +6,7 @@ import Image from 'next/image';
 
 const ProfileIcon = () => {
   const { data: session, status } = useSession();
+  console.log(status);
 
   if (status === "authenticated") {
     return (

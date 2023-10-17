@@ -1,12 +1,12 @@
 import type { DefaultSession, NextAuthOptions } from "next-auth";
 import GoogleProvider from 'next-auth/providers/google'
 
-export interface Session {
+/* export interface Session {
   user: {
     id: string;
     tokenUsed: number;
     } & DefaultSession["user"];
-  };
+  }; */
 
 export const options: NextAuthOptions = {
   providers: [

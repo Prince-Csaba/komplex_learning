@@ -2,4 +2,4 @@
 export { default } from 'next-auth/middleware';
 
 //App uses next-auth to only mathing routes - can be regex
-// export const config = { matcher: ["/myCourses", "/dashboard"]}
+export const config = { matcher: ["/myCourses", "/dashboard"]}
