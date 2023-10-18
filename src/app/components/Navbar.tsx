@@ -1,6 +1,5 @@
 import React from 'react'
 import Link from 'next/link'
-import ProfileIcon from './ProfileIcon'
 
 const Navbar = () => {
   return (
