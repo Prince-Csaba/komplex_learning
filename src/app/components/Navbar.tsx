@@ -7,7 +7,6 @@ const Navbar = () => {
     <nav>
       <Link href={"/"}>Home</Link>
       <Link href={"/myCourses"}>Kurzusaim</Link>
-      <ProfileIcon />
     </nav>
   )
 }

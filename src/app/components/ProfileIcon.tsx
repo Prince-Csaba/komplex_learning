@@ -5,8 +5,7 @@ import { signIn, signOut, useSession } from 'next-auth/react'
 import Image from 'next/image';
 
 const ProfileIcon = () => {
-  const { data: session, status } = useSession();
-  console.log(status);
+//  const { data: session, status } = useSession();
 
   if (status === "authenticated") {
     return (
